@@ -1,0 +1,43 @@
+/* Smart Collections - Dark Theme (Safe CSS) */
+
+.root {
+    -fx-base: #2b2b2b;
+    -fx-background: #1e1e1e;
+    -fx-control-inner-background: #3c3c3c;
+    -fx-accent: #0d7377;
+    -fx-default-button: #0d7377;
+    -fx-focus-color: #0d7377;
+    -fx-text-fill: #e2e8f0;
+}
+
+.table-view {
+    -fx-background-color: #3c3c3c;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2d3748;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e2e8f0;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #0d7377;
+}
+
+.button {
+    -fx-background-color: #0d7377;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+}
+
+.button:hover {
+    -fx-background-color: #0a5d61;
+}
+
+.menu-bar {
+    -fx-background-color: #2d3748;
+}
+
+.label {
+    -fx-text-fill: #e2e8f0;
+}
